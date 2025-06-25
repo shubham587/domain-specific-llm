@@ -17,11 +17,6 @@ A sophisticated Math Tutor CLI application that demonstrates advanced prompt eng
 - [💻 Usage Examples](#-usage-examples)
 - [📊 Evaluation Results](#-evaluation-results)
 - [🏗️ Repository Structure](#️-repository-structure)
-- [🎯 Assignment Deliverables Mapping](#-assignment-deliverables-mapping)
-- [🔧 Troubleshooting](#-troubleshooting)
-- [📖 Additional Documentation](#-additional-documentation)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 
 ## ✨ Features
 
@@ -164,21 +159,6 @@ Handles ambiguous inputs like:
 
 Provides clarification prompts to guide users toward specific problems.
 
-## 📚 Test Dataset
-
-**8 Curated Problems** covering Class 6-10 curriculum:
-
-| Problem | Category | Grade | Difficulty |
-|---------|----------|-------|------------|
-| Linear equations | Algebra | 8-9 | Medium |
-| Circle area | Geometry | 7-8 | Medium |
-| Percentage calculation | Arithmetic | 6-7 | Easy |
-| Quadratic equations | Algebra | 10 | Hard |
-| Speed-distance-time | Physics-Math | 7-8 | Easy |
-| Trigonometry | Advanced | 10 | Medium |
-| Algebraic expressions | Algebra | 8 | Easy |
-| Rectangle perimeter | Geometry | 6-7 | Medium |
-
 ## 💻 Usage Examples
 
 ### Interactive Problem Solving
@@ -262,25 +242,6 @@ math-tutor-cli/
     └── strategy_comparison_[timestamp].csv
 ```
 
-## 🎯 Assignment Deliverables Mapping
-
-### **Part 1**: Domain Understanding ✅
-- **Domain**: EdTech Math Tutor (Class 6-10)
-- **User Tasks**: Problem solving, concept explanation, work verification
-- **Implementation**: `test_queries.py` + documentation
-
-### **Part 2**: Prompt Engineering ✅  
-- **4 Strategies**: Zero-shot, Few-shot, CoT, Self-ask in `prompt_strategies.py`
-- **Fallback Mechanism**: Ambiguity detection and clarification
-- **Automation**: Batch testing framework in `evaluator.py`
-- **Hallucination Logging**: Automatic detection and reporting
-
-### **Part 3**: Evaluation & Analysis ✅
-- **Accuracy**: Correct answer matching
-- **Reasoning**: Step-by-step clarity scoring  
-- **Hallucination**: Mathematical error detection
-- **Consistency**: Repeated query testing
-- **Comparison**: Strategy performance analysis
 
 ## 🔧 Troubleshooting
 
@@ -312,14 +273,4 @@ math-tutor-cli/
    # Use Phi-3-Mini or Mistral-7B if Llama is too large
    # Adjust model in main.py LMStudioClient initialization
    ```
-
-## 📖 Additional Documentation
-
-For comprehensive technical details, methodology, and implementation insights, see:
-- **`ASSIGNMENT_METHODOLOGY.md`** - Complete technical documentation explaining:
-  - Detailed workflow and architecture
-  - In-depth prompt strategy analysis
-  - Evaluation methodology and scoring systems
-  - Strategy effectiveness analysis
-  - Implementation details and rationale
 
