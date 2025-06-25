@@ -52,7 +52,7 @@ A sophisticated Math Tutor CLI application that demonstrates advanced prompt eng
 ### 1. Clone the Repository
 
 ```bash
-git clone [<your-repository-url>](https://github.com/shubham587/domain-specific-llm.git)
+git clone https://github.com/shubham587/domain-specific-llm.git
 ```
 
 ### 2. LM Studio Setup
