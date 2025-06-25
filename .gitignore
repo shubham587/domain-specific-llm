@@ -8,6 +8,7 @@ ENV/
 .env
 .env.local
 .env.*.local
+ASSIGNMENT_METHODOLOGY.md
 
 # Python
 __pycache__/
